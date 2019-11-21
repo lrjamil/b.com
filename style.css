@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+    height: 410px;
+}
+.bars{
+    width: 20%;
+    height: 70px;
+    //background: green;
+}
+.bars i{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.mydoc{
+    width: 80%;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    //background: blue;
+}
+.mydoc p{
+    font-size: 25px;
+}
+.mydoc a{
+    text-decoration: underline;
+    color: rgb(95, 75, 75);
+    font-weight: bold;
+}
+.header{
+    box-sizing: border-box;
+}
+.bars, .mydoc{
+    float: left;
+}
+.user_profile{
+    width: 120px;
+    margin: auto;
+    margin-top: 80px;
+   // background: red;
+}
+.user_profile img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    border: 2px solid green
+}
+.user_name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.carea{
+    box-sizing: border-box;
+}
+.calculator{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    //background: red;
+    float: left;
+}
+.info{
+    float: left;
+}
+.info i{
+    font-size: 40px;
+    margin-top: 110px;
+    margin-left: 40px;
+    color: black;
+}
